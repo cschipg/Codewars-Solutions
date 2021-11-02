@@ -1,7 +1,3 @@
-Readme.md
-
-Prompts
-
 Battleship Field Validator :
 
 Write a method that takes a field for well-known board game "Battleship" as an argument and returns true if it has a valid disposition of ships, false otherwise. Argument is guaranteed to be 10*10 two-dimension array. Elements in the array are numbers, 0 if the cell is free and 1 if occupied by ship.
@@ -22,6 +18,8 @@ Create a function that takes a positive integer and returns the next bigger numb
 
 9 ==> -1 111 ==> -1 531 ==> -1 nextBigger(num: 9) // returns nil nextBigger(num: 111) // returns nil nextBigger(num: 531) // returns nil
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 RailFenceCipher :
 
 Create two functions to encode and then decode a string using the Rail Fence Cipher. This cipher is used to encode a string by placing each character successively in a diagonal along a set of "rails". First start off moving diagonally and down. When you reach the bottom, reverse direction and move diagonally and up until you reach the top rail. Continue until you reach the end of the string. Each "rail" is then read left to right to derive the encoded string.
@@ -40,6 +38,8 @@ For both encoding and decoding, assume number of rails >= 2 and that passing an 
 
 Note that the example above excludes the punctuation and spaces just for simplicity. There are, however, tests that include punctuation. Don't filter out punctuation as they are a part of the string.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 The Observed Pin :
 
 Alright, detective, one of our colleagues successfully observed our target person, Robby the robber. We followed him to a secret warehouse, where we assume to find all the stolen stuff. The door to this warehouse is secured by an electronic combination lock. Unfortunately our spy isn't sure about the PIN he saw, when Robby entered it.
@@ -54,6 +54,8 @@ possible in sense of: the observed PIN itself and all variations considering the
 Can you help us to find all those variations? It would be nice to have a function, that returns an array (or a list in Java and C#) of all variations for an observed PIN with a length of 1 to 8 digits. We could name the function getPINs (get_pins in python, GetPINs in C#). But please note that all PINs, the observed one and also the results, must be strings, because of potentially leading '0's. We already prepared some test cases for you.
 
 Detective, we are counting on you!
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Twice Linear :
 
